@@ -20,7 +20,7 @@ body{
     display: flex;
     align-items: center;
     gap: .5rem;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 .navbar-content{
@@ -32,6 +32,12 @@ body{
 
 .navbar-content :hover{
     color: #2A4AF4;
+    text-decoration: none;
+}
+
+.navbar-content > a{
+    text-decoration: none;
+    color: white;
 }
 
 .navbar-center{
